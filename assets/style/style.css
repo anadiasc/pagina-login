@@ -44,11 +44,21 @@ nav > a {
 main {
     display: flex;
     flex-direction: column;
-    background-color: #ffffffe0;
+    background-color: #ffffff;
     width: 547px;
     height: 50vh;
     padding: 20px;
     border-radius: 30px;
+}
+
+.main__cadastro {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 547px;
+    height: 76vh;
+    padding-left: 20px;
+    border-radius: 30px;   
 }
 
 h1{
@@ -63,15 +73,17 @@ h1{
     color: #3d3d3d;
 }
 
-#email, #password {
+#email, #password, #nome, #celular, #genero {
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 20px;
     height: 40px;
-    width: 89%;
+    width: 86%;
     padding: 10px;
     border: unset;
     background-color: #eeeeee;
+    font-size: 1em;
+    color: #3d3d3d;
 }
 
 .campo__acoes {
